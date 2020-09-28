@@ -22,7 +22,7 @@ ul {
     overflow: hidden
 }
 
-a {
+a { 
     text-decoration: none;
     font-family: 'Noto Sans KR', sans-serif;
 }
@@ -144,59 +144,38 @@ a {
 
 .sub_menu_btn{display: none}
 
+
+
+
+
+
+
 .logo {
-    float: left;
+   position: absolute;
+    top:0;
+    
     margin-top: 10px;
-}
-
-.menu {
-    width: 1050px;
-    float: right;
-}
-
-.menu > li {
-    margin-top: 10px;
-    float: left;
-    padding: 0 13px;
+    clear: both;
+    z-index: 9999
 }
 
 
-.menu:after {
-    display: inline-block;
-    content: "";
-    clear: both
-}
+.nav{width:100%; text-align:center; position: relative; z-index: 999; margin-left: 10%}
+.nav>ul{width: 100%; padding-top: 15px;}
+.nav>ul>li{display: inline-block; width: 12%; position: relative}
+.nav>ul>li:last-child{margin-right:0}
+.nav li a{font-size: 1rem; display: block; width: 100%; color:#999}
+.nav li a:hover{background: rgba(0,0,0,0.5);color:#fff; }
 
 
-.menu a {
-    font-weight: bold;
-    color: #999;
-    font-family: 'Noto Sans KR', sans-serif;
+.sub_bg{display:none; width: 100%; background:#0b4596; height: 280px; position: absolute; top:81px; left: 0; z-index: 900}
+.submenu{display:none; width: 100%; z-index: 990; position: absolute; top:67px; left: ; margin-left:0px; }
+.submenu li{width: 100%}
+.submenu li a{display: block;  color:#fff; font-size: 0.9rem}
 
-}
 
-.menu > li:hover {
-    background-color: #0b4596;
 
-}
 
-.menu a:hover {
-    color: #fff;
-
-}
-
-.menu > li:hover .submenu {
-    opacity: 1
-}
-
-.submenu {
-    opacity: 0;
-    transition: 0.5s
-}
-
-.submenu li {
-    background-color: ;
-}
 
 
 
