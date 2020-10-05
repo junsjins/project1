@@ -160,7 +160,7 @@ a {
 }
 
 
-.nav{width:90%; text-align:center; position: relative; z-index: 999; margin-left: 19%}
+.nav{width:83%; text-align:center; position: relative; z-index: 999; margin-left: 19%; background: }
 .nav>ul{width:90% ; padding-top: 16px;}
 .nav>ul>li{display: inline-block; width: 13.8%; position: relative}
 .nav>ul>li:last-child{margin-right:0}
@@ -208,8 +208,6 @@ a {
 @media (max-width:1279px) {
     #wrap {
         width: 100%;
-        margin-left: 0.5%;
-        margin-right: 0.5%
     }
 
     .top_header {

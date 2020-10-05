@@ -194,8 +194,7 @@
 @media (max-width:1279px) {
     #wrap {
         width: 100%;
-        margin-left: 0.5%;
-        margin-right: 0.5%
+       
     }
 
     .top_header {
@@ -278,8 +277,6 @@
 
     #wrap {
         width: 100%;
-        margin-left: 0.5%;
-        margin-right: 0.5%
     }
 
     .top_header {
