@@ -1,181 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700&display=swap');
 
-/* 공통 */
-* {
-    padding: 0;
-    margin: 0
-}
-
-ul {
-    list-style: none
-}
-
-.inner {
-    width: 1300px;
-    margin: 0 auto
-}
-
-.hidden {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    overflow: hidden
-}
-
-a { 
-    text-decoration: none;
-    font-family: 'Noto Sans KR', sans-serif;
-}
-
-
-
-
-
-
-/* 상단 */
-/* 위쪽상단 */
-.top_header {
-    width: 100%;
-    height: 40px;
-    line-height: 40px;
-    text-align: center;
-    border-bottom: 1px solid #e1e1e1;
-    font-size: 13px;
-    background-color: #0b4596;
-}
-
-.top_header > .inner:after {
-    display: inline-block;
-    content: "";
-    clear: both
-}
-
-.site {
-    width: 274px;
-    float: left;
-    color: #6e6e6e;
-    font-weight: bold;
-
-}
-
-.site > li {
-    float: left;
-    width: 32.9%;
-    background-color: #f0f0f0;
-    border-right: 1px solid #e1e1e1
-}
-
-.site:after {
-    display: inline-block;
-    content: "";
-    clear: both
-}
-
-.site > li:nth-child(1) {
-    background-color: #212121;
-    color: #fff
-}
-
-.site > li:nth-child(3) > select {
-    width: 100%;
-    height: 38px;
-    border: none;
-    background-color: #f0f0f0;
-    color: #6e6e6e;
-    font-weight: bold
-}
-
-
-.util {
-    width: 282px;
-    float: right;
-
-}
-
-.util > li {
-    width: 25%;
-    float: left;
-    color: #fff;
-    font-weight: bold
-}
-
-.util:after {
-    display: inline-block;
-    content: "";
-    clear: both
-}
-
-.util > li:before {
-    display: inline-block;
-    content: "";
-    width: 1px;
-    height: 10px;
-    background-color: #e1e1e1;
-    margin: 0 10px 0 0
-}
-
-.util > li:nth-child(1):before {
-    display: none
-}
-
-.util > li:nth-child(1) {
-    width: 20%;
-    padding-left: 5%
-}
-
-
-/* 아래쪽상단 */
-
-.bottom_header {
-    width: 100%;
-    height: 92px;
-    line-height: 50px;
-    text-align: center;
-    border-bottom: 1px solid #e1e1e1;
-    position: relative;
-    font-size: 15px
-}
-
-.bottom_header > .inner:after {
-    display: inline-block;
-    content: "";
-    clear: both
-}
-
-.sub_menu_btn{display: none}
-
-
-
-
-
-
-
-.logo {
-   position: absolute;
-    top:0;
-    
-    margin-top: 10px;
-    clear: both;
-    z-index: 9999
-}
-
-
-.nav{width:100%; text-align:center; position: relative; z-index: 999; margin-left: 10%}
-.nav>ul{width: 100%; padding-top: 15px;}
-.nav>ul>li{display: inline-block; width: 12%; position: relative}
-.nav>ul>li:last-child{margin-right:0}
-.nav li a{font-size: 1rem; display: block; width: 100%; color:#999}
-.nav li a:hover{background: rgba(0,0,0,0.5);color:#fff; }
-
-
-.sub_bg{display:none; width: 100%; background:#0b4596; height: 280px; position: absolute; top:81px; left: 0; z-index: 900}
-.submenu{display:none; width: 100%; z-index: 990; position: absolute; top:67px; left: ; margin-left:0px; }
-.submenu li{width: 100%}
-.submenu li a{display: block;  color:#fff; font-size: 0.9rem}
-
-
-
-
 
 
 
@@ -241,18 +65,20 @@ a {
 
 
 /*콘텐츠 아이콘*/
-.sub2_icon{width: 80%;  background: ; margin: 0 auto; text-align: center}
-.sub2_icon ul{}
-.sub2_icon li{ display: inline-block; width: 19.7%}
+.sub2_icon{width:90%;  background: ; margin: 0 auto; text-align: center}
+.sub2_icon img{width: 75%}
+.sub2_icon li{ display: inline-block; width: 19%}
 .sub2_icon p {margin-top: 10%; margin-bottom: 10%}
 
 
 /*콘텐츠 바로가기*/
 .bg{background: #f4f2f3; width: 100%; height: 900px;}
-.sub2_img{width: 80%; height: 900px; margin: 0 auto; text-align: center; margin-top: 180px;}
+.sub2_img{width: 90%; height: 900px; margin: 0 auto; text-align: center; margin-top: 180px;}
+
 .sub2_img h2{text-align: left; margin-bottom: 5%; padding-top:5% }
-.sub2_img li{display: inline-block; width: 24.7%}
-.sub2_img p{line-height: 30px;margin-top: 5%}
+.sub2_img img{width: 90%}
+.sub2_img li{display: inline-block; width: 24%}
+.sub2_img p{line-height: 30px; margin-top: 5%; font-size: 1rem}
 .sub2_img span{display: block; background: ; margin-top:8%}
 .back1{background: #93ccf1}
 .back2{background: #f1bf93}
@@ -277,13 +103,8 @@ a {
 
 }
 
-#blue_line > div {
-    width: 1280px;
-    height: 100px;
-    margin: 0 auto
-}
 
-#blue_line > div > p {
+#blue_line p {
     color: #fff;
     font-size: 19px;
     line-height: 100px;
@@ -385,37 +206,55 @@ a {
     .sub_menu_btn{position: absolute;top:5px;left: 5px; display: block; margin: 1.2%;}
     .sub_menu_btn img{width: 80%;}
         
-    .menu {display: none;}
-    .logo{float: left; width: 100%;text-align: center;
-    margin-top: 2%;}
-    .logo img{width: 25%; }
+    .submain_in {position: absolute;top: -50px; width: 100%; height: 0; padding-top: calc(62 / 1920 * 100%) }
+    #submain_img{height: 0; padding-top: calc(622 / 1920 * 100%);padding-bottom: calc(622 / 1920 * 100%); position: relative}
+    .submain_in img{width: 75%; padding-top: calc(450 / 1620 * 100%);top:; ;}
+    .submain_in{width: 100%; }
     
     
     
-    .submain_in{width: 100%}
-    .submain_in img{width: 70%}
+    
+    
+    
+    .main_text h2{font-size: 35px;}
+    .main_text p{font-size: 1rem;margin-top:2%;}
+    
+    .text1{height: auto; margin-bottom: 50px; margin-top: 150px;}
+    .text1 span{font-size: 1.7rem}
+    .text1 p{font-size: 1rem}
+    
+    
+    
+    .sub2_icon{width: 100%; }
+    .sub2_icon li{width: 25%}
+    .sub2_icon img{width: 70%}
+    
+    
+    
+    .sub2_img{height: auto; width: 100%}
+    .sub2_img h2 {font-size: 1.8rem}
+    .sub2_img li {width: 35%}
+    .sub2_img p{font-size: 1rem}
+
+    .sub2_img img{width: 75%; margin-top: 20%}
+    .sub2_img a{font-size: 1rem}
+    .bg{height: auto}
+    
+    
+    
+    
     
     
   
+    #blue_line{width: 100%; margin-top: 50px;}
+    #blue_line p{font-size:1.1rem ; line-height: 20px; padding:3.5%; color:#fff; text-align: center}
     
     
     
-    
-   
-    
-    
-    
-    
-    
-    #blue_line{clear: both;}
-    #blue_line > div{width: 100%; }
-    #blue_line > div > p{font-size: 1rem}
-    
-    
-  .top_footer > .inner{width: 100%}
+    .top_footer > .inner{width: 100%}
     .top_footer > .inner > ul{ width: 100%; padding-bottom: 5%}
     .top_footer > .inner > ul > li{font-size: 0.9rem;}
-    
+
     .f_logo img{width: 20%;margin-top: 3%}
     .copyright{font-size: 0.8rem}
     
@@ -451,37 +290,43 @@ a {
     .sub_menu_btn{position: absolute;top:5px;left: 5px; display: block; margin: 1.2%;}
     .sub_menu_btn img{width: 80%;}
     
-    
-    .menu {
-        display: none;
-    }
-    
-    .logo{float: left;
-        width: 100%;
-       text-align: center;
-        margin-top: 1%;}
-    .logo img{width: 40%;}
-    
-    .main_text{margin-top: 0;top: 10%; padding-top: 0}    
-     .submain_in {position: absolute;top: 0; width: 100%; height: 0; padding-top: calc(622 / 1920 * 100%) }
+        
+    .main_text{margin-top: 0;top: 25%; padding-top: 0}    
+    .submain_in {position: absolute;top: 0; width: 100%; height: 0; padding-top: calc(622 / 1920 * 100%) }
     #submain_img{height: 0; padding-top: calc(622 / 1920 * 100%);padding-bottom: calc(622 / 1920 * 100%); position: relative}
-    .submain_in img{width: 80%; padding-top: calc(470 / 1920 * 100%);top: 0;}
-    .submain_in h2{font-size: 25px;}
-    .submain_in p{font-size: 12px;margin-top:0;}
+    .submain_in img{width: 80%; padding-top: calc(470 / 1920 * 100%);top: 40px;}
+    
+    .main_text h2{font-size: 25px;}
+    .main_text p{font-size: 12px;margin-top:1%.2;}
+    
+    .text1{height: auto; margin-bottom: 50px; margin-top: 150px;}
+    .text1 span{font-size: 1.3rem}
+    .text1 p{font-size: 0.8rem}
+    
+    
+    
+    .sub2_icon{width: 100%; }
+    .sub2_icon li{width: 40%}
+    .sub2_icon img{width: 80%}
+    
+    
+    
+    .sub2_img{height: auto; width: 100%}
+    .sub2_img h2 {font-size: 1.5rem}
+    .sub2_img li {width: 49%}
+    .sub2_img p{font-size: 0.7rem}
+
+    .sub2_img img{width: 75%; margin-top: 20%}
+    .sub2_img a{font-size: 1rem}
+    .bg{height: auto}
     
     
     
     
- 
     
-    
-    
-    
-    
-    
-    #blue_line{clear: both;}
-    #blue_line > div{width: 100%; }
-    #blue_line > div > p{font-size: 0.8rem; line-height: 20px; padding:6.5% 3%;}
+  
+    #blue_line{width: 100%; margin-top: 50px;}
+    #blue_line p{font-size:0.8rem ; line-height: 20px; padding:6.5% 0.2%; color:#fff; text-align: center}
     
     
    
