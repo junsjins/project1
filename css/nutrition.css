@@ -99,6 +99,7 @@
     height: 100px;
     background-color: #0b4596;
     margin-bottom: 50px;
+    margin-top: 50px;
     
 
 }
@@ -230,8 +231,8 @@
     
     
     
-    .sub2_img{height: auto; width: 100%}
-    .sub2_img h2 {font-size: 1.8rem}
+    .sub2_img{height: auto; width: 98%; margin-top: 100px;}
+    .sub2_img h2 {font-size: 1.8rem; text-align: center}
     .sub2_img li {width: 35%}
     .sub2_img p{font-size: 1rem}
 
@@ -240,23 +241,7 @@
     .bg{height: auto}
     
     
-    
-    
-    
-    
-  
-    #blue_line{width: 100%; margin-top: 50px;}
-    #blue_line p{font-size:1.1rem ; line-height: 20px; padding:3.5%; color:#fff; text-align: center}
-    
-    
-    
-    .top_footer > .inner{width: 100%}
-    .top_footer > .inner > ul{ width: 100%; padding-bottom: 5%}
-    .top_footer > .inner > ul > li{font-size: 0.9rem;}
-
-    .f_logo img{width: 20%;margin-top: 3%}
-    .copyright{font-size: 0.8rem}
-    
+    .top_footer > .inner{display: none}
     
 }
 
@@ -296,43 +281,32 @@
     .main_text h2{font-size: 25px;}
     .main_text p{font-size: 12px;margin-top:1%.2;}
     
-    .text1{height: auto; margin-bottom: 50px; margin-top: 150px;}
-    .text1 span{font-size: 1.3rem}
-    .text1 p{font-size: 0.8rem}
+    .text1{width: 95%; height: auto;margin: 0 auto; margin-bottom: 50px; margin-top: 150px;}
+    .text1 span{ font-size: 1.5rem;}
+    .text1 p{font-size: 0.8rem; margin-top: 20px;}
     
     
     
-    .sub2_icon{width: 100%; }
-    .sub2_icon li{width: 40%}
+    .sub2_icon{width: 95%; }
+    .sub2_icon li{width: 45%}
+    .sub2_icon li p{font-size: 0.8rem}
     .sub2_icon img{width: 80%}
     
     
     
-    .sub2_img{height: auto; width: 100%}
+    .sub2_img{height: auto; width: 100%; margin-top: 80px;}
     .sub2_img h2 {font-size: 1.5rem}
     .sub2_img li {width: 49%}
     .sub2_img p{font-size: 0.7rem}
 
     .sub2_img img{width: 75%; margin-top: 20%}
-    .sub2_img a{font-size: 1rem}
+    .sub2_img a{font-size: 1rem; padding: 0px}
     .bg{height: auto}
     
-    
-    
-    
-    
   
-    #blue_line{width: 100%; margin-top: 50px;}
-    #blue_line p{font-size:0.8rem ; line-height: 20px; padding:6.5% 0.2%; color:#fff; text-align: center}
     
     
+    
+}
+
    
-    
-    
-    
-    .top_footer > .inner{width: 100%}
-    .top_footer > .inner > ul{ width: 100%; padding-bottom: 5%}
-    .top_footer > .inner > ul > li{font-size: 0.7rem;}
-    .top_footer > .inner > ul > li:nth-child(3){font-size: 0.6rem}
-    .f_logo img{width: 40%;margin-top: 2%}
-    .copyright p{font-size: 0.7rem;padding:0.1% 5%;}

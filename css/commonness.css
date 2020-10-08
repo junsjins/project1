@@ -184,24 +184,6 @@ a {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*태블릿사이즈*/
 
 
@@ -215,41 +197,27 @@ a {
     }
     .inner{width: 100%}
     .inner:after{content: ""; display: block; clear: both}
-    .sub_menu_btn{position: absolute;top:5px;left: 5px; display: block; margin: 1.2%;}
-    .sub_menu_btn img{width: 80%;}
+    .sub_menu_btn{position: absolute;top:15px;left: 15px; display: block; }
+    .sub_menu_btn img{width: 35px;}
         
     .menu {display: none;}
-    .logo{float: left; width: 100%;text-align: center;
-    margin-top: ;}
+    .logo{float: left; width: 100%;text-align: center;}
     .logo img{width: 200px; }
-    
-    
-    
-    .submain_in{width: 100%}
-    .submain_in img{width: 70%}
-    
-    
+
   
     .nav{display: none}
     
-    
-    
-   
-    
-    
-    
-    
-    
+
     #blue_line{clear: both;}
-    #blue_line > div{width: 100%; }
-    #blue_line > div > p{font-size: 1rem}
+    #blue_line div{width: 100%; }
+    #blue_line p{font-size: 1rem; }
     
     
-  .top_footer > .inner{width: 100%}
-    .top_footer > .inner > ul{ width: 100%; padding-bottom: 5%}
+    .top_footer > .inner{width: 100%}
+    .top_footer > .inner > ul{ width: 100%; margin-top: 50px; }
     .top_footer > .inner > ul > li{font-size: 0.9rem;}
     
-    .f_logo img{width: 20%;margin-top: 3%}
+    .f_logo img{width: 200px; margin-top: 3%}
     .copyright{font-size: 0.8rem}
     
     
@@ -277,11 +245,23 @@ a {
     .logo{float: left;
         width: 100%;
        text-align: center;
-        margin-top: 1%;}
+        margin-top: ;}
     .logo img{width: 180px}
     
-   
+         
+    #blue_line{clear: both;}
+    #blue_line div{width: 100%; }
+    #blue_line p{font-size: 0.8rem; line-height: 20px;padding:6.5% 3%;}
+    
+    #blue_line > div{width: 100%; }
+    #blue_line > div > p{font-size: 0.8rem; line-height: 20px;padding:7% 3%;}
+    
+    
  
+    .f_logo img{width: 150px; margin-top: 3%}
+    .top_footer{display: none}
+   
+    
     
    
 
