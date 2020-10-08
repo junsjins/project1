@@ -68,21 +68,22 @@ h2:before, h2:after{
 }
 
 .bestslider {
-    width: 100%;
+    width: 1280px;
     height: 500px;
     position: relative;
     margin-top: 35px;
+    margin: 0 auto
 }
 
 .bestslider > .btn_prev {
     position: absolute;
-    left: 15%;
+    left: 0;
     top: 45%
 }
 
 .bestslider > .btn_next {
     position: absolute;
-    right: 15%;
+    right:0;
     top: 45%
 }
 
@@ -115,7 +116,8 @@ h2:before, h2:after{
     height: 130px;
     margin-top: 60px;
     margin: 0 auto;
-    text-align: center
+    text-align: center;
+    margin-top: 100px;
 }
 
 .bestdata > .data_box {
@@ -556,9 +558,9 @@ display: block; clear: both}
     }
     
    
-    .bestslider{height:auto; text-align: center}
+    .bestslider{width: 100%; height:auto; text-align: center}
     .bestslider > .best_list{width:50%; height: auto; 
-        padding-top: calc(140/300*100%); position: relative; right: 1%;left: 1%}
+        padding-top: calc(110/300*100%); position: relative; right: 1%;left: 1%}
     .bestslider > .best_list > .slide{position: absolute; top:0; width: 100%; height:auto; float: none}
     .bestslider > .best_list > .slide > img{width: 60%; }
     
@@ -569,7 +571,7 @@ display: block; clear: both}
     .bestslider > .btn_prev{left: 20%; top:45%;}
     .bestslider > .btn_next{right: 20%;top:45%;}
     
-    .bestdata{width: 98%; box-sizing: border-box}
+    .bestdata{width: 98%; box-sizing: border-box;margin-top: 80px; }
     .bestdata ul:after{content:""; display: block;clear: both}
     .bestdata li{width: 16%; line-height: 0}
     .bestdata img{width: 40%}
